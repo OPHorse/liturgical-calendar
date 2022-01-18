@@ -3,9 +3,10 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
     margin: 0;
-    background-image: url(./background.jpg);
+    background-image: url(./background.png);
     background-size: cover;
     background-attachment: fixed;
+    background-position: 0px -300px;
 }
 h1 {
     font-family: 'Kaushan Script', cursive;
@@ -23,16 +24,39 @@ a:hover {
     font-size: 32px;
 }
 #purple {
-    background-color: purple;
+    border: 2px solid purple;
+    color: purple;
+    background-color: white;
 }
 #green {
-    background-color: green;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
 }
 #gold {
+    border: 2px solid gold;
+    color: gold;
+    background-color: white;
+}
+#purple:hover {
+    background-color: purple;
+    color: white;
+}
+#gold:hover {
     background-color: gold;
+    color: white;
+}
+#green:hover {
+    background-color: green;
+    color: white;
 }
 div {
-    width: 100%;
-    height: 30px;
-    background-color: white;
+    position: fixed;
+    top: 20%;
+}
+p {
+    margin: 24px;
+}
+img {
+    margin: 28px 10px 10px 28px;
 }
