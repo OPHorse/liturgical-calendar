@@ -1,0 +1,36 @@
+body {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 0;
+    background-color: black;
+}
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+}
+a {
+    padding: 10px 14px;
+    margin: 6px;
+    font-size: 24px;
+    color: white;
+    transition: 300ms;
+    text-decoration: none;
+}
+a:hover {
+    font-size: 32px;
+}
+#purple {
+    background-color: purple;
+}
+#green {
+    background-color: green;
+}
+#gold {
+    background-color: gold;
+}
+div {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
