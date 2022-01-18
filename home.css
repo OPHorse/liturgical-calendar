@@ -3,7 +3,9 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
     margin: 0;
-    background-color: black;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 h1 {
     font-family: 'Kaushan Script', cursive;
